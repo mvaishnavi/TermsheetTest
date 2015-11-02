@@ -3,11 +3,11 @@
     package="com.example.termsheettest"
     android:versionCode="1"
     android:versionName="1.0" >
-
+    
     <uses-sdk
         android:minSdkVersion="8"
         android:targetSdkVersion="21" />
-    <uses-permission android:maxSdkVersion="4" android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" android:maxSdkVersion="4"/>
 
     <application
         android:allowBackup="true"
